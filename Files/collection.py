@@ -1,7 +1,7 @@
 #collections   => single variable to used to store multiple values
 #List = [] ordered and changable. Dublicates OK
 #set = {}  unordered and immutable.but ADD/REMOVE OK.No dublicates 
-#tuple = () ordered and unchangle Dublicates OK
+#tuple = () ordered and unchangle Dublicates OK  FASTER then List
 
 
 
@@ -27,3 +27,13 @@
 
 
         #set = {}
+# fruits ={"apple","banana","mango","orange","banana"}        #cannot use indexing in set
+# fruits.add("grapes")
+# fruits.remove("apple")
+# fruits.pop()
+# fruits.clear()
+# print(fruits)
+
+        #tuple()  
+fruits =("apple","banana","mango","orange","banana" )
+print(fruits)
